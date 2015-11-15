@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="6872d95d-8c40-4b4f-9303-87e7e7f5cb89"
+  name="Creational"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="e34bcd9c-c320-48fa-830a-6df4c6111c20"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DDesign_Patterns.Creational"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="001bea40-d724-4865-95de-44cf68f408dd"
+        LastKnownName="Builder"
+        LastKnownLocation="Package1_1539.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="88cc07f7-1faf-4556-82bd-11c2093e5fcc"
+        LastKnownName="Factory_Method"
+        LastKnownLocation="Package_1009.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="4d92b8f2-104c-4268-a1e4-d039631fd1ac"
+        LastKnownName="Prototype"
+        LastKnownLocation="Package_1101.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="7ce448a5-b56b-4978-aa8e-e9bd5d0e9381"
+        LastKnownName="Singleton"
+        LastKnownLocation="Package_1420.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

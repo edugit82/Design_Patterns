@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="441767d7-be9e-4128-bb50-29928e07c199"
+  name="Design_Patterns"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="4c470524-b907-44b3-9894-1f37fa682c03"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DDesign_Patterns"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="28168a99-7dfa-4028-acb4-e1c2787304e3"
+        LastKnownName="Abstract_Factory"
+        LastKnownLocation="Package1_1036.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="6872d95d-8c40-4b4f-9303-87e7e7f5cb89"
+        LastKnownName="Creational"
+        LastKnownLocation="Package_1539.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8e3a50b0-9671-48a9-926b-e074ed4c2a93"
+        LastKnownName="Structural"
+        LastKnownLocation="Package_1028.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0cb374b0-a38c-4b02-9e49-6b7f8ecc9f53"
+        LastKnownName="Behavioral"
+        LastKnownLocation="Package_1811.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

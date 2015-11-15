@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="8e3a50b0-9671-48a9-926b-e074ed4c2a93"
+  name="Structural"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="0eeca696-7533-4512-9f67-c30cb4cdd94e"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DDesign_Patterns.Structural"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="781e3c34-c325-41af-a4de-89699edcb845"
+        LastKnownName="Adapter"
+        LastKnownLocation="Package1_1028.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="46669789-983c-49ee-bc06-fbe66be7c059"
+        LastKnownName="Brigde"
+        LastKnownLocation="Package_1119.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="4da1b2d6-4790-4399-bce0-eca9c9559927"
+        LastKnownName="Composite"
+        LastKnownLocation="Package_1356.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f3563d51-d529-4695-8551-af6210607c91"
+        LastKnownName="Decorator"
+        LastKnownLocation="Package_1436.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="da642fed-e442-45d4-ac46-7dc42a75364a"
+        LastKnownName="Facade"
+        LastKnownLocation="Package_1521.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="d8aab682-5920-4b60-8734-f20b2008d9f7"
+        LastKnownName="Flyweight"
+        LastKnownLocation="Package_1628.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="19d7f6ae-9c60-4122-b31c-621ff57977a3"
+        LastKnownName="Proxy"
+        LastKnownLocation="Package_1721.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

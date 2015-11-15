@@ -1,0 +1,1001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="d95cd545-70e7-4e0a-94c2-9fb3c63b5510"
+  name="Modelo"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="3a0e7715-215e-41d8-a113-7b002adbf365"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="74d324a5-d01c-4d2a-8e69-20d648a18b40"
+        name="FlyweightFactory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3aa56c50-0e2b-47bf-b1f0-a958e5a8737e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DFlyweightFactory"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a2ae9cd9-fac4-4ffa-b0bd-01b0b99676bb"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0ebeb837-916b-4346-b3dd-4279b0c9ba59">
+                <propertyInstance
+                  Id="1dad7b47-bbf1-4898-b89e-36570ce761f2"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c8ba4683-daee-4146-823f-1a127f16255e">
+                <propertyInstance
+                  Id="7d7d8af8-14da-4b42-999c-5486fe568309"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9188a969-f469-4df6-a0e4-dfa69c741bfa">
+                <propertyInstance
+                  Id="30a14c70-83e3-4e41-a6ff-fb92877ac0e6"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="bd574ec4-4c8e-4f5c-8d3c-aa6e2174bdb8">
+                <propertyInstance
+                  Id="3f66e4c9-f497-4868-af00-3b8c64af8671"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="774f0730-fa54-489c-acd1-6a798b744ba2">
+                <propertyInstance
+                  Id="ba9fa5e1-8a1c-4256-b8d8-80f8c3f414f2"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <targetEnds>
+          <association
+            Id="e6775776-6ce2-4f56-b178-6abb0c9aa701"
+            isDerived="false"
+            sourceEndRoleName="FlyweightFactory"
+            targetEndRoleName="Flyweight"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="d310b8f8-12ad-4315-937b-9d13fd0a8996"
+              LastKnownName="Flyweight"
+              LastKnownLocation="Package1_1628.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="831d2ae6-49a5-4731-8ec8-3cddef3f48c6"
+                  name="FlyweightFactory"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Shared"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="20de64cc-82d9-4165-a3c7-834bac6b225a"
+                  name="Flyweight"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="6580d285-4a47-4890-bf99-2372b0fb5d89"
+            name="flyweights"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ba2d2e86-51da-4d0e-a987-b9674ba86d9d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DFlyweightFactory Member%3Dflyweights"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ea9bbfd7-3a12-4955-95fb-7e1a4c7d1eea"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ab7bc8bb-7436-4824-acbc-21e5d4493def">
+                    <propertyInstance
+                      Id="7451b94f-24d2-4385-9b7d-27b7af573fa7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e30a6b6c-6b41-4b16-871a-febd4566a76f">
+                    <propertyInstance
+                      Id="88000aab-7cea-44b4-a8ed-b10ed05400db"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef4fcb63-7a1f-450d-8374-26794a989d9f">
+                    <propertyInstance
+                      Id="9d70c67a-d1a3-44c5-9973-76a31cf4c390"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="531b00cd-a7a2-446b-882f-097dd9b58db2">
+                    <propertyInstance
+                      Id="5e0cb6cb-7776-4e25-b511-80906b3dd719"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="812b5f98-9b8b-457c-9d8b-8e299a09a458">
+                    <propertyInstance
+                      Id="81433838-42c7-4246-a994-7384e6420540"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="49e8ab85-ca27-4ebf-ab27-fe59e06d80a4"
+                LastKnownName="Hashtable"
+                LastKnownLocation="Package1_1542.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="4406d381-edb7-45c3-8495-054105d0c02c"
+            name="GetFlyweight"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b8672c25-adfe-49c7-86bd-1f29f08bd8dc"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DFlyweightFactory Member%3D(Name%3DGetFlyweight OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5242fa95-c110-4ab0-800a-8f8c45db9888"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8ac502ec-9062-4978-b3d6-fddb3ffb554b">
+                    <propertyInstance
+                      Id="c4c6e04a-487b-4c50-ad88-bb0859dd2dde"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7b9420c-043b-460a-ad95-53b7783a75a7">
+                    <propertyInstance
+                      Id="3e6d27ba-5584-4fbc-901a-4396ac20b0dd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f367145-916e-410c-aa8d-d84322bb204c">
+                    <propertyInstance
+                      Id="e044ce26-0c2a-4133-b2ce-8574fcb180af"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a37d26cc-331d-47cc-b1fa-a0e4fa279fd7">
+                    <propertyInstance
+                      Id="2a1acea5-7ca5-44d0-bab6-3f4c431f6aef"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9a86f52-db5b-49f5-abce-e0c387329c28">
+                    <propertyInstance
+                      Id="dab0c101-6a70-4b9d-8cf3-3ae37f086b07"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5fbaa8ec-d727-4cb4-a750-7dd22bd1ec94">
+                    <propertyInstance
+                      Id="886365f0-6962-4175-b295-6c1191047439"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="30fc2f4f-a10c-41dd-af15-3801a7b66068"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d310b8f8-12ad-4315-937b-9d13fd0a8996"
+                      LastKnownName="Flyweight"
+                      LastKnownLocation="Package1_1628.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3d160a04-7774-4548-b49c-2c068c07c2a6"
+                  name="key"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ab8108ae-70cd-446c-8ed4-96f1baea626f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DFlyweightFactory Member%3D(Name%3DGetFlyweight OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dkey"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="UML_Projeto.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="394d74f7-5de7-4f1f-bb2a-398d425440d6"
+            name="FlyweightFactory"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e4bd2d59-5b9e-4e75-a1dc-37268e3cb309"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DFlyweightFactory Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="acf8522e-49fd-488e-b260-2a8a65f55b83"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="860016e2-42eb-4684-8bed-c7799c7acac9">
+                    <propertyInstance
+                      Id="693660cb-9d73-47c3-8279-10f23db5f8b0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="07139966-17af-4c4d-8eda-867e5ab3c929">
+                    <propertyInstance
+                      Id="df95d061-79a6-46b4-bcf2-c38d14f9a16c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e3421e3-2adf-4881-958a-fd30d541f296">
+                    <propertyInstance
+                      Id="b1be24df-0ca6-477c-a70f-1f5d95072364"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c6637ed0-587c-4c28-872f-b0e4e6aaa4d8">
+                    <propertyInstance
+                      Id="5bd8077b-417b-4ca7-824e-b5e20d825fc1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8876c45-8340-48a2-9af3-3e89a9623a10">
+                    <propertyInstance
+                      Id="7e25448c-0560-4f4a-951d-5258da2da363"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ec9af2b1-1a52-41b2-9081-20eda3d72675">
+                    <propertyInstance
+                      Id="e76306dc-5704-4c7f-a255-524cb9bcd0e2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d310b8f8-12ad-4315-937b-9d13fd0a8996"
+        name="Flyweight"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="655d42fe-b6c3-4e5d-9573-048c64544500"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DFlyweight"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="ca06698e-3d17-4b1d-95ee-466a725db56f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="daa3fec2-d38e-40fb-9d12-29cf510737f4">
+                <propertyInstance
+                  Id="0faf7557-979f-4554-bd59-7cc0e4529a6f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8adebc1a-7d4b-4116-8530-8a3dba658865">
+                <propertyInstance
+                  Id="0d63199c-abf7-4869-a749-ab3060fcf870"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0f9b7a04-16d7-4a1f-a1b3-141fa95af013">
+                <propertyInstance
+                  Id="dbdad9a1-683a-47b4-8ac3-42303282b595"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3cdb03bb-1e74-47b8-a8b8-52009a4fe973">
+                <propertyInstance
+                  Id="6a585baf-d1c4-499c-ad16-828a0f2ddcf0"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f99aaa53-5186-418e-97ff-5d34ce2ee51e">
+                <propertyInstance
+                  Id="2c8ed9d6-ce33-4d98-a018-23580f86362d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="c99bf1fc-5f33-4782-b918-5f9341b81314"
+            name="Operation"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a2591ddd-a312-4d61-bece-9d2229de0eb7"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DFlyweight Member%3D(Name%3DOperation OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2be613b4-166c-4c35-ac2e-8521a93911a8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83aea809-6a1e-41d8-a2d6-5b2d7d8a7948">
+                    <propertyInstance
+                      Id="037273d1-5d87-44cc-8beb-0e0589a9316b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bcb4e6ab-13f9-473a-93d8-94b2524d55d5">
+                    <propertyInstance
+                      Id="4ad3d88b-3f3e-4dc9-8086-1938d1ad084a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="294c0a2e-e28b-43e0-85b4-7a028c6f69ed">
+                    <propertyInstance
+                      Id="1ef4e32c-6254-493a-878c-6fcf195671c8"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed6ca044-8924-4c3b-b030-7d4add115bf4">
+                    <propertyInstance
+                      Id="90b09df3-74f5-4df8-bbd8-7d94a54de94e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d2de0c41-ebeb-4c10-9d3d-98f80b79d478">
+                    <propertyInstance
+                      Id="f7501bdd-6a55-4026-9086-6d15aa9eacb9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67f0241b-6a59-4f56-912d-a6aed709fec6">
+                    <propertyInstance
+                      Id="d54903cb-881c-43f3-a007-a2a168fd63fe"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f546e137-c7ea-4d2a-8f26-cf0e026b5cd2"
+                  name="extrinsicstate"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7ecae3af-251b-4b3d-b946-29fd8903cf59"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DFlyweight Member%3D(Name%3DOperation OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dextrinsicstate"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UML_Projeto.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="d3180654-11e5-4a9a-b784-377b4ad675be"
+            name="Flyweight"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a83b85de-99f3-4a03-9bad-f0d9590626d2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DFlyweight Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="07787cda-5ecd-484c-ac3b-c7a74bca5e11"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3b64b2b-978b-4d4a-ab79-305a26ee0372">
+                    <propertyInstance
+                      Id="e20391ec-f96c-47ef-837e-64ecc88c50d3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c0e0b24-c8ef-4ff6-8b0d-d4b7bd66b338">
+                    <propertyInstance
+                      Id="bcfe1422-78cd-48c0-8e5d-381ab0c3a8ff"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe33d9bb-70ea-47f5-be44-2ab3ab89eeb3">
+                    <propertyInstance
+                      Id="a31aa777-1105-4804-8480-ce57151f6699"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25d4ae37-f8fb-4927-af2f-27aa6878af64">
+                    <propertyInstance
+                      Id="a482416b-34ca-4fee-96e1-c6fc5d5323fd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce0ba5c0-5d2a-4f43-a6b9-2dd9b655dddc">
+                    <propertyInstance
+                      Id="60101ad0-1280-49e6-b41b-cf83f24ec1a2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a794777-09f5-474f-a8d8-f048758adc28">
+                    <propertyInstance
+                      Id="e2d17f9a-d64a-46c0-bca9-82e12ec76d3c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6e721ac2-64c8-4aa2-9385-ea8344ac1d3d"
+        name="UnsharedConcreteFlyweight"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="227dd1ad-7012-4b2a-8975-5fa64499b1fd"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DUnsharedConcreteFlyweight"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="1d4dca03-54bd-475d-b27a-b8c26ebe404c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="77d2fa6b-5f58-484b-9b00-fc3f8a93cfe1">
+                <propertyInstance
+                  Id="b37e80c8-f963-4007-9cbe-95f3d1838508"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f5cf413b-d69e-457c-94b6-f6635091e5a3">
+                <propertyInstance
+                  Id="ddefa58b-0954-40c8-b64f-4128589176de"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0df0eded-8708-4aa8-9ea5-37a414764073">
+                <propertyInstance
+                  Id="61d8edda-c645-41fb-b1a8-b134617ee590"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1305e536-16bb-420d-9779-29a0128a6a3e">
+                <propertyInstance
+                  Id="9758ec36-6440-49ec-85eb-668807dd63e7"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d4ded3ef-032f-4eb3-948f-f3a60e9770d4">
+                <propertyInstance
+                  Id="74089139-1af1-4fd1-b99b-7d44399f71e4"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="3dbca331-73fe-4598-9460-58cd51479de4"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d310b8f8-12ad-4315-937b-9d13fd0a8996"
+              LastKnownName="Flyweight"
+              LastKnownLocation="Package1_1628.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="520a20f7-257a-472c-82cb-524870ceff57"
+            name="Operation"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cee44625-9d5e-4fde-8cc0-1c96d4c9285f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DUnsharedConcreteFlyweight Member%3D(Name%3DOperation OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="32545057-f543-43cf-8ba9-55d0935e328e"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c3b40e8-00fb-4020-a23d-d62edf397768">
+                    <propertyInstance
+                      Id="204b530a-46b1-412c-9857-fd530047df66"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eb8fb53f-e72d-4126-adec-60d26dfb7bda">
+                    <propertyInstance
+                      Id="cf2ffeb0-fb0b-431f-bba3-d6af715a288d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a524f67-848e-4bb4-8ff5-ecdcdfdd5fa3">
+                    <propertyInstance
+                      Id="7679cdef-960a-4ca0-ba91-81369c706c1f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74e073f0-f567-4306-88a2-fa33eaa63f01">
+                    <propertyInstance
+                      Id="89978bb5-415d-4cd4-90bb-9f2a04f72d47"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="133243f9-9177-44dc-8f98-9aefa4fce321">
+                    <propertyInstance
+                      Id="c2d0a94e-bd8e-45db-85e0-7dafd2188621"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2c5b4c6e-babf-480a-b7ba-61fc43ec09d9">
+                    <propertyInstance
+                      Id="cf16f016-cdf6-4653-9b19-89cd3f089eda"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7a7e8980-3329-4f12-97dd-10108183597b"
+                  name="extrinsicstate"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b3efee1e-4f50-4be1-aa00-9f974e56e959"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DUnsharedConcreteFlyweight Member%3D(Name%3DOperation OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dextrinsicstate"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UML_Projeto.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1e07004d-af6f-4a82-9d91-9682ea5af3e1"
+            name="UnsharedConcreteFlyweight"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="973dfd9f-c5f5-41a9-b636-76dbfd3a6fb1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DUnsharedConcreteFlyweight Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="efa6e1df-eaa4-4ec2-8600-a32fbc8fd7d3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="438f7640-b7aa-419a-8c9d-6ac385f51d97">
+                    <propertyInstance
+                      Id="7961af9c-75b8-42a6-8429-a61bc0cee6d9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c37eaf61-52ec-4c5e-afd3-c1d0187bfc71">
+                    <propertyInstance
+                      Id="8222dfbb-cf47-4028-b7a1-3d757062831c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="977b2200-1d88-4eea-836f-0df6f0479c00">
+                    <propertyInstance
+                      Id="599143cc-0993-46cb-99d9-8dfca7a9b358"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="51e16494-392a-4572-b229-6f3a28382326">
+                    <propertyInstance
+                      Id="168ebe91-b925-4161-81a5-44dfb9f96c37"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b957310b-7775-41fa-a9a9-1ad425562f0e">
+                    <propertyInstance
+                      Id="d0a59eb5-c8d0-456f-bab7-b21b7f43b920"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c9f579a-cc89-4337-9488-f1d72bace6e3">
+                    <propertyInstance
+                      Id="a99b271f-5a77-49df-9cca-ba4bbf5b251a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="0a1edc90-013f-4e54-be29-239090200f42"
+        name="ConcreteFlyweight"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6e12d3fa-c471-46b8-823b-99831182b3af"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DConcreteFlyweight"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="31ce3cc0-56e8-46e5-9491-51016886a02f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9103c2de-227c-4187-afc5-9b9de2404721">
+                <propertyInstance
+                  Id="1a9a6e5b-f551-4401-9fbe-e0a22dfab06d"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="74e03010-6df8-4699-bfdd-f96480b26dc2">
+                <propertyInstance
+                  Id="7fd4d2de-0762-4ff8-9692-a848343481d6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c2633ab0-af3c-439e-bb92-d5a530f0c6d6">
+                <propertyInstance
+                  Id="71572439-1f3b-4764-89c8-41953c6a1d53"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b51b4371-808a-4b8b-a73f-db935afe526f">
+                <propertyInstance
+                  Id="47b699b1-4468-4637-938b-0ae0a4dc6cbd"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="545bede7-ff9a-4213-a485-8e31a5c3e1bb">
+                <propertyInstance
+                  Id="efda4992-b932-478e-80ed-e7e575f3bd09"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="e5519dc2-c49e-4b4b-badf-7cd66ec2e56d"
+            isSubstitutable="false">
+            <classMoniker
+              Id="d310b8f8-12ad-4315-937b-9d13fd0a8996"
+              LastKnownName="Flyweight"
+              LastKnownLocation="Package1_1628.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="d212e2c4-70e3-42c8-aed3-9b35236b11a8"
+            name="Operation"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="00079d23-cfed-4b0a-a040-05a08ffa3702"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DConcreteFlyweight Member%3D(Name%3DOperation OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c150a150-a26c-46fd-bb73-04a60de6c5ec"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="60a72210-6f0f-4ce4-9360-863f36902225">
+                    <propertyInstance
+                      Id="390fd440-9821-489c-8bfe-edb08132e71f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f1e4e9b-ea66-4494-bbfc-3df085292668">
+                    <propertyInstance
+                      Id="0acc60d5-241e-4102-9dab-797d6cf0f6c2"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b588affd-c17d-4f1f-9faa-927c362c4279">
+                    <propertyInstance
+                      Id="9a26c46b-ca9a-46b7-8446-d4252479328d"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97a0ccf8-d2a3-43ee-a91b-ba861afe2dc1">
+                    <propertyInstance
+                      Id="3ecbad1a-cbfa-42ab-897b-26cae0b1161b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="153287f8-9374-4f5c-84e7-6a4804879e4a">
+                    <propertyInstance
+                      Id="384b7a6c-e2a9-41ff-bc44-d9e3c124d014"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5d23e12f-c361-425d-af8a-c736610bc803">
+                    <propertyInstance
+                      Id="d6a2c212-3b6f-47d5-9281-4840b1d75cad"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cad60e0c-3c2c-431b-ad0d-ff7fd7e650c7"
+                  name="extrinsicstate"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="53f418f7-73c9-443b-9e30-8d6248c0717c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DConcreteFlyweight Member%3D(Name%3DOperation OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dextrinsicstate"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="UML_Projeto.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="72ae742c-86f4-419d-a751-35f4b7641b2b"
+            name="ConcreteFlyweight"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="59fa1759-b76d-489a-bb9f-da79b7466423"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Flyweight.Modelo Type%3DConcreteFlyweight Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e668df0e-6eee-4bbc-86c6-ab6fb65a3bec"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c6d7385-5464-4ad8-96e9-bcf84e3d0275">
+                    <propertyInstance
+                      Id="a3c5f35a-b9d1-4b98-badc-ad860193dcd2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="927901ea-d85b-4ce2-af1a-372005a0d703">
+                    <propertyInstance
+                      Id="fc8a579f-37d4-4e39-8cc0-667175a3b8de"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="875f411e-57c4-4c23-93de-ad83a14ee8a9">
+                    <propertyInstance
+                      Id="e4398c51-a7fb-4b18-a48c-27aa149e20f3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="484e078d-e67f-4e0d-87bc-f6b9850bffc1">
+                    <propertyInstance
+                      Id="f3c746a4-da7a-4b5c-babd-d4db48de1a62"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f41a86e6-9b07-45cd-b6dd-e61263bdb68c">
+                    <propertyInstance
+                      Id="7210bb22-474c-4d26-8c42-e467312f2b57"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a0f98ab-9dc1-4824-b8bd-1bb91a41b3df">
+                    <propertyInstance
+                      Id="a0666dcf-4f17-48bf-9835-68df2e3b7f3e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

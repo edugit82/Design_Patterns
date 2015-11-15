@@ -1,0 +1,919 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="f0ee9cf4-5cf9-4a8f-a14e-436177bd9c14" name="Composite" linkedPackageId="c77d85ed-3efd-4c22-8c86-d5655de1d1dd" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="d1f65719-00a0-4edd-9612-fa6307d4f737">
+      <profileInstance Id="3920e040-cb51-4e45-8d8b-6b437d5b6605" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="0cd29bd6-955e-4af6-a99b-90e89e15bef1">
+      <profileInstance Id="1d0b7751-66d6-4280-9e3e-2113e5557b58" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="a4feb16f-d5cb-48d3-ae1e-d30de4bbc2a4">
+      <profileInstance Id="49fe70b1-566e-4b3b-945f-ef36b8ca02b8" name="CSharpProfile">
+        <elementDefinition Id="32fe9049-2d79-4cc8-9b17-3412536dd62c" />
+      </profileInstance>
+      <elementDefinition Id="e6d672f8-6591-42cb-bb7c-a89d6ce0b3a1" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c2c9ea83-2659-4e6f-8efa-e3d24ff0633d" name="Component" isAbstract="true" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="f053f7e9-07ba-4ed1-9734-1668bb14e651" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent" tag="ViewCode">
+            <elementDefinition Id="26fe8270-100c-40a6-ab58-961e1771f506" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="f12fa17f-15f2-4e73-b236-47c51eec1378" name="class" profile="CSharpProfile">
+            <elementDefinition Id="52088ba6-cb45-4390-a558-0237abc6d4b9" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="fd153a02-516e-4679-9aa9-22abbe326f39">
+                <propertyInstance Id="d38ee233-e48e-4dae-91bf-d996bf615237" name="ClrAttributes">
+                  <elementDefinition Id="0e649ed1-c799-4e9e-b9c4-a8d982cbfb53" />
+                </propertyInstance>
+                <elementDefinition Id="21f16a67-e8da-47b7-a8e2-fc5b6b1d533d" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9bd7e6b5-0fe8-4fc3-a54a-6fdceca8dec1">
+                <propertyInstance Id="df7aabc0-73ea-45f7-a661-e98e803d8ea4" name="IsPartial" value="false">
+                  <elementDefinition Id="e6102939-d3da-49cf-9ea5-306ca3564f17" />
+                </propertyInstance>
+                <elementDefinition Id="8def177a-b7ef-4ec5-aa6c-a45d207e8c66" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="6d24e878-5109-4b8a-8eb2-5530b48392e2">
+                <propertyInstance Id="b198f149-b3fb-4550-b012-c9950a8b759b" name="IsStatic" value="False">
+                  <elementDefinition Id="944b9a15-64d3-47db-a8b3-2a34a7bf2921" />
+                </propertyInstance>
+                <elementDefinition Id="db042550-c14d-4939-a7d4-5da38daea69c" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="9028b5ed-c0a5-4168-88a6-50a8b7a58e6a">
+                <propertyInstance Id="ecdd9ab0-39da-4ff0-91fd-d7525e50623a" name="IsUnsafe" value="false">
+                  <elementDefinition Id="f8c38f72-4ade-4aa5-a1c5-7a930c7560dd" />
+                </propertyInstance>
+                <elementDefinition Id="b9c92acd-dab0-4076-a38c-159d46b0c702" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="02d74e23-8337-47bc-87a7-8d89176f7288">
+                <propertyInstance Id="6ae8af4f-95fc-4754-a7ec-7e471faee006" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="d0c97eaf-3c40-4a38-bf3d-2c3c3eb32e72" />
+                </propertyInstance>
+                <elementDefinition Id="b1a558f5-0c39-4b3d-b25d-c78c5ecfbee4" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="4b35c324-ad45-43ba-ae9c-ad9c9cc55c58" />
+        <ownedAttributesInternal>
+          <property Id="c8c913aa-96ad-4b63-a932-e12a35a9a43b" name="name" visibility="Protected" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="21946485-b7ed-4d12-ac71-088a19ab8fa3" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent Member%3Dname" tag="ViewCode">
+                <elementDefinition Id="f3ec5b1d-e463-41b6-af38-383b44793e4b" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="c94e91d0-63c9-4190-98ca-15115d32dd30" name="field" profile="CSharpProfile">
+                <elementDefinition Id="a955428f-759d-4d13-bc26-207ae1d7e941" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="35cf9144-7271-4d2e-997b-0ee747e36ce6">
+                    <propertyInstance Id="e331a8b5-7e48-4fdb-bb67-93954b06989f" name="ClrAttributes">
+                      <elementDefinition Id="eb00b2f0-0919-4cc2-8690-6f13da4f9058" />
+                    </propertyInstance>
+                    <elementDefinition Id="9d23d48b-69e0-436c-afa5-0e729d51de8e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ae69b35f-92c0-48e3-8401-cfc6366687df">
+                    <propertyInstance Id="ce2327c8-f986-4fdb-814e-359b5b4fc13f" name="IsConst" value="false">
+                      <elementDefinition Id="461f173f-0863-4c3b-8dbe-27554a4239a0" />
+                    </propertyInstance>
+                    <elementDefinition Id="97ab50ea-f962-4b7a-9eeb-00e7e7896129" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1a362d58-d8b8-4de3-9028-4b0e3787fe73">
+                    <propertyInstance Id="cbe84243-e6a6-47a7-a1d9-216627b5b66d" name="IsNullable" value="false">
+                      <elementDefinition Id="e10df1f2-f1a2-44f3-9f26-6ab6a3af4cfe" />
+                    </propertyInstance>
+                    <elementDefinition Id="33d631e7-b232-48e6-997b-25ed7698972c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ae49557b-a6f2-45f2-abd8-81d66d4b4127">
+                    <propertyInstance Id="d7a52e19-1421-4e86-bbd0-38904f90020f" name="IsVolatile" value="false">
+                      <elementDefinition Id="574f81d3-39c5-47ad-93fb-abd2758b985e" />
+                    </propertyInstance>
+                    <elementDefinition Id="7c32e008-e481-42f7-94a4-39357563f49d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8c5e7161-af20-4dc2-acbe-25cdef158126">
+                    <propertyInstance Id="ddc90914-8d3f-46d2-a9f7-c176a4281893" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="e0c817ac-8143-4cf1-82da-df1394381d5e" />
+                    </propertyInstance>
+                    <elementDefinition Id="bcaa669e-6112-444e-a17a-881e37124eaa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="643e7a64-f238-4b22-a834-9634f53707c7" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="699e0047-2573-493c-aa2d-b12257982f55" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="f46fa1b3-5a0b-46af-8ab9-c2f489fe2426" name="Component" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="d281a945-bf23-4ae8-9abb-4d88a809de54" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])" tag="ViewCode">
+                <elementDefinition Id="3ead31ca-2f54-4f03-ad0b-25811ae0b531" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="bd6e8bc3-d734-42c1-a54a-683af96c0a9a" name="method" profile="CSharpProfile">
+                <elementDefinition Id="79738cef-e08b-41de-ad15-6ec5341bf7e6" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c5d162fc-fcef-4c64-87d0-84a7846e00d5">
+                    <propertyInstance Id="3bd2bad0-5075-4140-82bd-610eb86fe4f3" name="ClrAttributes">
+                      <elementDefinition Id="038849bc-f3b4-4670-b91c-c28443139d1c" />
+                    </propertyInstance>
+                    <elementDefinition Id="a961b26f-61f1-4605-8e56-bbf3133f5245" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="799ac05a-8886-4fff-b9ff-792c6972ec41">
+                    <propertyInstance Id="e982725f-b674-4e0e-94f5-f57613b56150" name="IsPartial" value="false">
+                      <elementDefinition Id="24894dea-78ee-4c43-bdc3-7ccb0da09083" />
+                    </propertyInstance>
+                    <elementDefinition Id="284565df-a6c9-4138-a93c-0386c71d46e5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="489d7e91-98a5-419c-8419-f27638cf2d79">
+                    <propertyInstance Id="e37651b2-688f-4e21-a8e2-363616ad0251" name="IsUnsafe" value="false">
+                      <elementDefinition Id="64401f1e-af54-468a-8085-8da508037d75" />
+                    </propertyInstance>
+                    <elementDefinition Id="b27d4980-cf48-4c70-bc10-4ec9f37823a2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="03fcd19c-af5a-4dd3-97c6-aa917aa05f94">
+                    <propertyInstance Id="eac1ffa3-8bc4-49d4-bedd-89c1bb9271bf" name="Inheritance" value="none">
+                      <elementDefinition Id="5efbe3e8-d7dc-462c-aa26-e5d361bef099" />
+                    </propertyInstance>
+                    <elementDefinition Id="1ee618e6-dde2-479f-8f1c-d97d2f9b857b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b9a864f8-5b7e-4c96-a752-ce5ac6100d4c">
+                    <propertyInstance Id="7fd2a2a5-1b4c-4184-8de6-e8a66fca1340" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="990eeda4-83cd-49d9-a361-8542a8c1168d" />
+                    </propertyInstance>
+                    <elementDefinition Id="a357e02f-3cf5-4390-a86e-dd493bb6789e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="309a3f8e-7b3b-43a1-851d-cccaae14bbd2">
+                    <propertyInstance Id="3cef065b-0cd5-4dee-aab1-32db41fe1ea8" name="params" value="false">
+                      <elementDefinition Id="cd50b9c5-23ff-453a-aa48-86e99e2258a2" />
+                    </propertyInstance>
+                    <elementDefinition Id="cde89e13-19e6-443b-9ce7-ed9ae299d59e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="cf69adae-e9ee-49d0-a3e4-26bd17c2f9cd" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="5b33582b-2db8-4731-9a7d-f1f9448e9e24" name="name" direction="In">
+                  <referencesInternal>
+                    <reference Id="ce2fada9-069f-40da-9acc-69578f9f0168" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dname" tag="ViewCode">
+                      <elementDefinition Id="d736ab75-f557-4475-b5e2-afdd5ac3c159" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="a1b8910d-08ab-4a8f-b32d-8789d8b1a1b5" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="699e0047-2573-493c-aa2d-b12257982f55" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="84597f67-2d30-4b99-9120-c86b98f8285a" name="Add" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="cbf3ae43-d80b-442e-811f-cf94ef6b7fab" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent Member%3D(Name%3DAdd OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent)])" tag="ViewCode">
+                <elementDefinition Id="634c8f36-e89c-4526-8f59-108f64496720" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="0bf59088-87c6-4270-a32a-fbcd92822f49" name="method" profile="CSharpProfile">
+                <elementDefinition Id="b610d432-b68f-4115-9c60-cb3bb577eef5" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8f954996-2a76-4b36-9dcc-b739db739cdc">
+                    <propertyInstance Id="46dd0deb-58cf-42b0-8734-a5ab4fb4ef9a" name="ClrAttributes">
+                      <elementDefinition Id="032894a2-3684-45cf-9905-0e0441ecf345" />
+                    </propertyInstance>
+                    <elementDefinition Id="7fdeec67-7055-43fa-ba9e-80c884e5eb3a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="028a71d5-f32b-4437-bd1f-cd6c01726838">
+                    <propertyInstance Id="ba946acd-f7ab-4436-bb6d-60cc0420f770" name="IsPartial" value="false">
+                      <elementDefinition Id="c31d2c50-1c64-4a50-a848-e0f3b9ae1414" />
+                    </propertyInstance>
+                    <elementDefinition Id="523bde32-5982-43a8-a877-5841fb3da30b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8cfc0861-f323-424d-8394-324b9a60da0f">
+                    <propertyInstance Id="cd1b6790-3dbf-489a-9c8b-404b76dc84bf" name="IsUnsafe" value="false">
+                      <elementDefinition Id="7b13f4ec-bc9d-48c2-8bc3-ccdfdbec5023" />
+                    </propertyInstance>
+                    <elementDefinition Id="3cfaf1d0-d201-4ab1-bc9a-0fb540cc8e8a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cbd67fa8-3352-4c72-be8b-85d245884f53">
+                    <propertyInstance Id="57e245fb-4732-41cd-9663-d246b9eea0b0" name="Inheritance" value="none">
+                      <elementDefinition Id="47424cf6-2eb9-43ad-8ac8-ff223d19f5da" />
+                    </propertyInstance>
+                    <elementDefinition Id="6708d7a6-1986-4932-b46e-c6e01aeb7482" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="56e7e9fd-1039-4a4e-9025-31695030c06f">
+                    <propertyInstance Id="b6889233-5ad9-4b8a-bd1f-fe67fe8594b8" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="eae1301e-8bcf-4850-8fcc-ab6324ca16cb" />
+                    </propertyInstance>
+                    <elementDefinition Id="a9cc035b-7f3f-416d-abe9-256ff40eb467" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="53751991-9b73-431c-81ee-c9dc80a8ed6e">
+                    <propertyInstance Id="6211a2b9-3196-49a6-b33c-f970ae98cf3e" name="params" value="false">
+                      <elementDefinition Id="7ecc1d6d-7581-44f9-860e-da817dbe8383" />
+                    </propertyInstance>
+                    <elementDefinition Id="515c6090-69de-4e6b-a2d6-10829a661bff" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="9f16792e-835e-4b37-8aab-51f8ba3d191a" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1f4ac658-5d27-4f28-8176-d0e36b90a4a8" name="c" direction="In">
+                  <referencesInternal>
+                    <reference Id="544955cd-7ad3-4c10-9812-d1d937de9cf2" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent Member%3D(Name%3DAdd OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent)]) ParameterIdentifier%3Dc" tag="ViewCode">
+                      <elementDefinition Id="595dbf27-a395-4d3f-84ba-e3ce85ca09e1" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="981189ba-a335-4896-b201-9167a9421b72" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ffc73dcb-1121-47f3-9dab-a9b1761fdd1f" LastKnownName="Component" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="7a34f4ff-45ea-401d-9032-ba2b195c9558" name="Display" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="43c00341-0834-408c-9f4d-5b08c54c5cb6" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent Member%3D(Name%3DDisplay OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])" tag="ViewCode">
+                <elementDefinition Id="97661904-ac11-44b7-8fb1-6a7750cf1f02" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="835aa56a-ebf5-40b7-9a32-cfec14359c0c" name="method" profile="CSharpProfile">
+                <elementDefinition Id="0206217c-39e1-4bc3-b0d5-c91727585b78" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4cf8e61f-f640-4e45-8788-2642ed9fe8de">
+                    <propertyInstance Id="a5245a2c-a619-4cd3-b96d-4ecba6af522b" name="ClrAttributes">
+                      <elementDefinition Id="88abf01c-d41a-49c5-ad27-562469dda0a9" />
+                    </propertyInstance>
+                    <elementDefinition Id="9c9b9401-0386-47f2-9456-eaf030a17ff1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d5d66dba-277d-47aa-ae2b-10798e112c72">
+                    <propertyInstance Id="c7a99c0b-122c-4e24-9c43-7a35550d9f12" name="IsPartial" value="false">
+                      <elementDefinition Id="c362d3fa-9316-4fca-be2c-678e7856fe4a" />
+                    </propertyInstance>
+                    <elementDefinition Id="9e64b0a0-7470-4e14-88c4-91f29f0890a7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="856a637e-05a0-46f0-837f-a9aa250b171e">
+                    <propertyInstance Id="068b64bd-bf56-43e5-869e-bc099dcad138" name="IsUnsafe" value="false">
+                      <elementDefinition Id="7edb3d03-8818-4f1f-bf10-f20eb30d97b3" />
+                    </propertyInstance>
+                    <elementDefinition Id="c1deb667-f393-4f1a-bd1a-228fc448e2f8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2579ded3-02f8-4c55-85ce-8b1416ae09b5">
+                    <propertyInstance Id="8bf947a5-04b7-4f6b-9ed7-74d17356c24e" name="Inheritance" value="none">
+                      <elementDefinition Id="973537e8-d649-43ff-85c4-fab0992c0951" />
+                    </propertyInstance>
+                    <elementDefinition Id="6b091ca2-7c54-4855-8779-3d81f98a39bd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bbe2c73b-b04c-43e8-8be4-596c86e0546c">
+                    <propertyInstance Id="b9bde600-0260-4d62-a2de-7215450203b1" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="f297899d-862e-4089-b25a-52ec9ffd0203" />
+                    </propertyInstance>
+                    <elementDefinition Id="cd94ba7e-e92f-47fa-94fd-34fb4c82ec29" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c90a2f0d-ed49-400f-87bc-c0ccd0d28e3e">
+                    <propertyInstance Id="b2cdd89f-9001-415d-998c-a4f908abc1ad" name="params" value="false">
+                      <elementDefinition Id="e2fdd2a5-4a1e-41ba-b004-f23760ee2b44" />
+                    </propertyInstance>
+                    <elementDefinition Id="1d207072-db88-4d9e-b258-bc363b105f2e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="77e7996a-fa22-40da-93f3-d8b3ba463b9e" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="39654a68-4bc0-482f-8b63-4412ea25351a" name="depth" direction="In">
+                  <referencesInternal>
+                    <reference Id="0e6008ae-9803-4a87-81f5-d519fe35f40d" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent Member%3D(Name%3DDisplay OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Ddepth" tag="ViewCode">
+                      <elementDefinition Id="50fe9760-8e0d-4c16-9a8f-d1d24ebea474" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="b5d6f8dd-021c-48a4-9be0-744886073cf1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="436ebd8b-4d54-4830-aebf-6c9451e04156" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="32871692-a2a8-4401-930c-ce6be9a9f7c7" name="Remove" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="e817b4c3-7b91-49f6-afe9-8421dfc30ee1" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent Member%3D(Name%3DRemove OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent)])" tag="ViewCode">
+                <elementDefinition Id="c40a3599-04b5-4a58-9355-5a6a11d33fcb" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="5f463bde-6580-4658-9188-939e31748323" name="method" profile="CSharpProfile">
+                <elementDefinition Id="3a6a49eb-3996-47f3-b020-b56bcb14a2f2" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="98785a29-1470-4254-a0f5-a20853f70abd">
+                    <propertyInstance Id="79e4de5f-3b55-4a1c-a72c-971b49eafd41" name="ClrAttributes">
+                      <elementDefinition Id="fd8adab1-917b-40f5-affc-ac5858794c91" />
+                    </propertyInstance>
+                    <elementDefinition Id="7c751ae0-61f9-409e-a2cb-1c5c8080b813" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3c6e34e7-6f43-4f08-b636-6afbd2ef3734">
+                    <propertyInstance Id="20f69fd7-ae26-4212-9eb5-12dbc002e5aa" name="IsPartial" value="false">
+                      <elementDefinition Id="b864dc2c-bdf7-44cc-a981-5b7472a0a5bf" />
+                    </propertyInstance>
+                    <elementDefinition Id="21528ad3-9940-4e93-83e3-121c5eff11fa" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7fa00a81-436f-4dec-a432-5f880bc7e3d6">
+                    <propertyInstance Id="4e0fd7d8-7f3e-4879-b5bb-cc26ec1daad1" name="IsUnsafe" value="false">
+                      <elementDefinition Id="ea957f9f-fbac-4048-8ca6-23917f9e9945" />
+                    </propertyInstance>
+                    <elementDefinition Id="49e6a0f2-5c9d-4f35-b883-0290f72393f2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="2d01b62d-f94f-44ec-a39a-1e9c063ecf1f">
+                    <propertyInstance Id="3dbdd53d-88b2-403a-9517-1c2a6a52acde" name="Inheritance" value="none">
+                      <elementDefinition Id="8f80064b-52e9-4fbd-b87c-44725be47136" />
+                    </propertyInstance>
+                    <elementDefinition Id="160f4289-39ad-4189-8c45-7d994a07eea9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="06897d2a-bbdf-46a1-a4ef-708e6deaab1b">
+                    <propertyInstance Id="c3393d94-8617-44e4-b9c3-65f38023a01c" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="ded9a749-2153-402b-a073-c3902c532f60" />
+                    </propertyInstance>
+                    <elementDefinition Id="5fc0c1e8-9b75-42f7-ae02-c36a8dac53af" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="36e2c145-a94a-4ca8-b9d1-1fb818169346">
+                    <propertyInstance Id="3aad8c73-3cff-4326-baa7-10f8fc2bd92a" name="params" value="false">
+                      <elementDefinition Id="c2ff0b3a-c34c-43e8-a4f4-3ceeae713d20" />
+                    </propertyInstance>
+                    <elementDefinition Id="44d2cb09-abdb-4e7d-b098-2f0d304bbd9d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="cc1c7ad0-1ae6-47ba-9597-33310864df80" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e4b9618d-ef85-4d2e-8ac0-d7edb931b88d" name="c" direction="In">
+                  <referencesInternal>
+                    <reference Id="a16f1741-4fd3-4f4c-b7ea-24e0e249351e" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent Member%3D(Name%3DRemove OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent)]) ParameterIdentifier%3Dc" tag="ViewCode">
+                      <elementDefinition Id="41a600ea-5a73-4a21-b62e-91562cff0ac0" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="8177dc32-fdca-409b-8447-9b284034576f" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ffc73dcb-1121-47f3-9dab-a9b1761fdd1f" LastKnownName="Component" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="699e0047-2573-493c-aa2d-b12257982f55" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ffc73dcb-1121-47f3-9dab-a9b1761fdd1f" name="Component" isAbstract="false" isLeaf="false" cachedFullName="UML_Projeto::Design_Patterns::Structural::Composite::Modelo::Component">
+        <elementDefinition Id="4b35c324-ad45-43ba-ae9c-ad9c9cc55c58" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="436ebd8b-4d54-4830-aebf-6c9451e04156" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5a78bc49-ae24-4b92-bd8d-04ab50bed61e" name="Leaf" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="db06f33f-7cc8-4f4f-a982-5e4ae9f46fea" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DLeaf" tag="ViewCode">
+            <elementDefinition Id="264efbe8-3869-4202-b234-65b5a75a3e95" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="a7051578-9905-46e7-a07e-464539514613" name="class" profile="CSharpProfile">
+            <elementDefinition Id="4e02a8d8-5afb-4d11-840f-0f963eee47fd" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="cbeed712-ae84-444a-98f1-37b6ca3f93aa">
+                <propertyInstance Id="cd00bec6-82ce-4212-980f-2203c4b5da15" name="ClrAttributes">
+                  <elementDefinition Id="5d22e786-7e3a-4f19-a520-8b1647aed2f6" />
+                </propertyInstance>
+                <elementDefinition Id="6b2c974a-d5d6-44b6-96bd-32650629c079" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="15cbb6be-575c-4a0e-abe5-be9c63e36fb2">
+                <propertyInstance Id="655aff74-fc2e-4313-83b3-2bcdd822a11f" name="IsPartial" value="false">
+                  <elementDefinition Id="06ba300d-7775-47ab-8aa5-4640ec35103e" />
+                </propertyInstance>
+                <elementDefinition Id="012e3513-73c9-409b-ad24-7695f81ed021" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="38b556e6-06a6-4e48-acb6-0ea4da9f7b1d">
+                <propertyInstance Id="69942e20-4e25-445e-8f3a-13554e01a4ef" name="IsStatic" value="False">
+                  <elementDefinition Id="b53e1f5c-96d6-4008-a9f9-fdfe08713698" />
+                </propertyInstance>
+                <elementDefinition Id="19a004e0-5215-46b0-96b3-fababeddf705" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="6ac094ec-1f74-4ec6-a4b1-2d60590ca3a1">
+                <propertyInstance Id="3f8550d6-3716-4b3d-a156-baee20b6c1a9" name="IsUnsafe" value="false">
+                  <elementDefinition Id="eec5bf26-4ed0-4146-b6a3-0060cc0cedc6" />
+                </propertyInstance>
+                <elementDefinition Id="4400ae27-e882-457f-940e-a90c3b0f8385" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="154f9384-5585-4a44-bb4a-ce8731c1758c">
+                <propertyInstance Id="3df0804e-42f4-4188-bc81-d3bbf6e1d1fb" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="6a8a237d-49b7-4025-92ae-c9930a0eaf72" />
+                </propertyInstance>
+                <elementDefinition Id="88d4d0d2-05ce-485c-a14d-421ab21e984a" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="372f1a50-7066-454e-9296-e1ebab298c14" />
+        <generalsInternal>
+          <generalization Id="0660aeee-9d72-4433-a98f-88e6036914ef" isSubstitutable="false">
+            <classMoniker Id="c2c9ea83-2659-4e6f-8efa-e3d24ff0633d" LastKnownName="Component" />
+            <elementDefinition Id="81ed5b32-cb5a-4545-9d62-4c356ee7c473" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="d19b914c-1dde-46f4-8b99-2745bca9ae80" name="Leaf" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="c5e12133-5d37-4ba2-b201-4d58e33d3d2f" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DLeaf Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])" tag="ViewCode">
+                <elementDefinition Id="2abbb638-09b6-4dc7-841c-5dfeef1a7fbb" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="be5f5cdb-f1d6-4cb0-8be7-b7a3c6ce0f93" name="method" profile="CSharpProfile">
+                <elementDefinition Id="4bb88210-95d5-47de-b0ea-af77672a7af1" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a592fd8a-9dd8-4138-a69a-873ee088186e">
+                    <propertyInstance Id="a234492b-580e-4840-9968-d3b162ca555b" name="ClrAttributes">
+                      <elementDefinition Id="3419b0cd-e434-45a1-86a4-3d9cb724d6c2" />
+                    </propertyInstance>
+                    <elementDefinition Id="9a838a73-f7ed-4710-9347-28b71b739b42" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="de04ab2e-2946-4d4d-9e44-84c29a5aa378">
+                    <propertyInstance Id="d2f20373-0536-461b-ba0c-7db5f7625866" name="IsPartial" value="false">
+                      <elementDefinition Id="cc222881-b498-40ee-af37-eac7a04c47eb" />
+                    </propertyInstance>
+                    <elementDefinition Id="410b11d1-f29d-45c0-bd4e-410d8e1935e4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="68ecb12c-fe28-45c5-8bb8-8440eb5bdb86">
+                    <propertyInstance Id="6e322fca-ec59-4796-adca-b463b58b042a" name="IsUnsafe" value="false">
+                      <elementDefinition Id="22656402-88a5-4fcd-accd-522f183357a0" />
+                    </propertyInstance>
+                    <elementDefinition Id="fea8dfad-62ba-410d-83f1-1d8e11a70a58" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0b796398-9429-43ed-89e7-34265a836df1">
+                    <propertyInstance Id="08eb31af-38ae-4de7-8b84-7eeda1a7aa8e" name="Inheritance" value="none">
+                      <elementDefinition Id="f7145406-9ec6-49fc-b7c6-283c3485a434" />
+                    </propertyInstance>
+                    <elementDefinition Id="2c39701a-efa6-47d9-9dc0-3484412d40a6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="69aee99c-42bb-4cc0-9c8a-50f05de930f4">
+                    <propertyInstance Id="c9519ccf-9277-48a7-a555-5fedb0af06f8" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="88f4aa68-2a95-45c9-9de2-62f1a5d7f51a" />
+                    </propertyInstance>
+                    <elementDefinition Id="51a6cd8e-9708-43a5-80ca-940a71e5000c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ff21828d-f4dd-439a-bc0c-c40e4d34806a">
+                    <propertyInstance Id="117d7490-9c96-4c68-9761-53ee61e3290d" name="params" value="false">
+                      <elementDefinition Id="79c1a2bd-48cc-4574-9cc4-1772ef523c71" />
+                    </propertyInstance>
+                    <elementDefinition Id="d2570093-19ff-4a25-958a-4b28578227c7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="5a681c74-4e9b-4d19-9f02-21b4801ad476" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="56135deb-a24d-4073-9e63-142c0e6ece35" name="name" direction="In">
+                  <referencesInternal>
+                    <reference Id="96f24695-d1d4-4ffe-bab1-6c68c2169c47" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DLeaf Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dname" tag="ViewCode">
+                      <elementDefinition Id="d22bd87f-0955-4092-97a2-fa4d59b2b258" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="9e51fd63-9a13-4043-a28c-6bafdfe0e640" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="699e0047-2573-493c-aa2d-b12257982f55" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="92f0c304-8701-4300-bd16-a07e9384fc4d" name="Add" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="9bee3d9c-c3f8-439b-9bf3-f74014436b64" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DLeaf Member%3D(Name%3DAdd OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent)])" tag="ViewCode">
+                <elementDefinition Id="bcdfdb79-0b9a-48fc-b1b1-e007b165fdcb" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="22f13bf1-a1e6-4d2d-b292-c721d7c2f887" name="method" profile="CSharpProfile">
+                <elementDefinition Id="a7103e01-e243-40ce-8d4f-a8549b181d1b" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9f2467f5-32cb-41f6-be10-34d86b9e5410">
+                    <propertyInstance Id="d32dbf3a-e589-45a5-9283-da98bda0e231" name="ClrAttributes">
+                      <elementDefinition Id="1910c12d-321c-43b9-99fe-4f1452774cfb" />
+                    </propertyInstance>
+                    <elementDefinition Id="582a9756-9a13-46e3-8904-761f7be8bd94" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6ba1c787-5aa2-43a7-810d-0449bdc8e70d">
+                    <propertyInstance Id="ffeab7a4-5d40-436b-981b-dbe719142e76" name="IsPartial" value="false">
+                      <elementDefinition Id="4e3961b5-4c4b-4b65-be3c-cfbeec907721" />
+                    </propertyInstance>
+                    <elementDefinition Id="4665b12e-92f6-4620-afd7-1a4a9e01349c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d85c38c9-80c1-4e4e-ab76-9fa1221e0a2d">
+                    <propertyInstance Id="ea948ff5-04e1-406e-8c4f-1058da096673" name="IsUnsafe" value="false">
+                      <elementDefinition Id="0a9621ea-08ff-4814-bce4-4c039eefa6a4" />
+                    </propertyInstance>
+                    <elementDefinition Id="61bb1bbf-9f24-42c2-b980-7484e91b4b9e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="667561b5-0715-4b0c-b3f1-f72ce3cc1971">
+                    <propertyInstance Id="9aad38f5-47a6-47cd-a21d-b4d3ad0901c6" name="Inheritance" value="none">
+                      <elementDefinition Id="f08df692-c637-47a0-882d-db66eed0d686" />
+                    </propertyInstance>
+                    <elementDefinition Id="0035b9ab-0b80-48b3-90d7-7d16938ffb37" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6b8ff921-2aac-4a20-b25e-3f9ddeddc3d7">
+                    <propertyInstance Id="5f91e6ec-8bb5-46c7-9b8c-c0a6b7af39c2" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="ecaed14f-e361-4849-90e8-5db41ebada80" />
+                    </propertyInstance>
+                    <elementDefinition Id="51236717-510d-4ab0-adeb-3d3233079dab" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="90bf4d87-b89c-4c5f-9ded-6325e71e4c1c">
+                    <propertyInstance Id="4b89e0b3-a230-45a9-a328-d276d9bb5a4f" name="params" value="false">
+                      <elementDefinition Id="5d509d30-2d98-4502-9035-4a12aa5308b7" />
+                    </propertyInstance>
+                    <elementDefinition Id="8fe52162-8701-4a70-8f81-52c603601a67" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="edf27563-d85e-4c97-9e3a-4ea3fa26c265" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6e5c9843-dd0b-4c04-9be3-0d1684505cce" name="c" direction="In">
+                  <referencesInternal>
+                    <reference Id="a69925ca-ee4f-428a-a5d2-646b80bc3bbb" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DLeaf Member%3D(Name%3DAdd OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent)]) ParameterIdentifier%3Dc" tag="ViewCode">
+                      <elementDefinition Id="3eae5e14-ed20-4829-8b47-3cdd1b600699" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="9b29703c-1312-4fe1-afa1-e49b27c7bb5d" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ffc73dcb-1121-47f3-9dab-a9b1761fdd1f" LastKnownName="Component" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="d9343d8d-4348-49a4-a015-262bc9f994a1" name="Display" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="ed6b6935-eb4a-464d-aa7e-8e24d75084b1" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DLeaf Member%3D(Name%3DDisplay OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])" tag="ViewCode">
+                <elementDefinition Id="b288f866-448a-4c53-b2b0-64d0ae752263" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="62eac4ec-8b71-40cb-adb9-cc3fc9c1880d" name="method" profile="CSharpProfile">
+                <elementDefinition Id="8667ea56-819c-4001-bf12-8051fafa6804" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bf9c46bc-8a7c-4530-ba31-01ea0eaa06e9">
+                    <propertyInstance Id="e919dde2-d31d-4b70-8d40-271336c0d997" name="ClrAttributes">
+                      <elementDefinition Id="9a657d26-b244-4669-88df-f9944d07bb38" />
+                    </propertyInstance>
+                    <elementDefinition Id="09303644-8ca4-4f4b-8f30-1b69c6ba1488" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="aef397da-8cd8-42f3-b6a8-b45bca656616">
+                    <propertyInstance Id="9bc4efab-8832-44b9-b74e-e4ecf987a4f4" name="IsPartial" value="false">
+                      <elementDefinition Id="b626ef1d-5de8-4caa-af80-76ae3ce2932e" />
+                    </propertyInstance>
+                    <elementDefinition Id="2159fef9-d0cc-4e3c-abda-e77faabec5c9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="89c78737-51fa-4ad9-8f64-2f7a18231097">
+                    <propertyInstance Id="951a6c56-b9e8-45bc-8be5-1c9c98eaf7ff" name="IsUnsafe" value="false">
+                      <elementDefinition Id="5f88bc0f-b5fa-4ee2-8bf9-3740636e9b5d" />
+                    </propertyInstance>
+                    <elementDefinition Id="ca326ac9-a5a4-437f-93e3-69f3d4da9b69" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="55a31e13-1b90-407b-a676-dec51e4e402b">
+                    <propertyInstance Id="0dd8ba48-8375-48bf-8ac0-2e33a77889b9" name="Inheritance" value="none">
+                      <elementDefinition Id="5ebcea5a-cf04-470b-8a5d-815f4c1fce84" />
+                    </propertyInstance>
+                    <elementDefinition Id="90bb0303-5869-48ec-8dc5-a127ca16cd9d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6d8c64ed-5bf0-44a9-ab54-c31b85f3e9ff">
+                    <propertyInstance Id="0a860dde-3b8a-4493-bfcb-0301d875ad5e" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="11e3b58f-5e5d-4663-ae6e-990d67f7d318" />
+                    </propertyInstance>
+                    <elementDefinition Id="cc0403b8-898a-4640-81fe-f38b56ef97ee" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a4990a62-8be6-497b-899e-5c98d8176baa">
+                    <propertyInstance Id="718cc0c0-8d2d-44e4-9082-079eef2b0f6a" name="params" value="false">
+                      <elementDefinition Id="8235726c-1e8c-49ef-ae16-4e75d5532751" />
+                    </propertyInstance>
+                    <elementDefinition Id="0ecbcbdd-f52b-4a68-bb40-01d11296d0d4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="a57d1937-8f68-4841-925e-a4f25751eaba" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6c5a746c-dd07-476a-b986-274b2309e8c2" name="depth" direction="In">
+                  <referencesInternal>
+                    <reference Id="82e8987b-bd4c-4da5-a8bb-e710f1380d31" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DLeaf Member%3D(Name%3DDisplay OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Ddepth" tag="ViewCode">
+                      <elementDefinition Id="408f2168-76b4-4376-8d34-ec337b3def9a" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="3f0cdb7e-8f46-406c-b6f3-7b7c086e9723" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="436ebd8b-4d54-4830-aebf-6c9451e04156" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="c98b258b-27dd-4f4c-82a3-1ad63cb82784" name="Remove" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="e6f5f653-000a-400f-bed0-139a2e7fa889" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DLeaf Member%3D(Name%3DRemove OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent)])" tag="ViewCode">
+                <elementDefinition Id="e8a7f646-d5b0-493c-b264-da23e71eda59" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="cb5a76d1-81f2-4cc5-92c2-0c0a598dad46" name="method" profile="CSharpProfile">
+                <elementDefinition Id="f3a52631-a7e6-4560-9ddd-bb12286ccaf9" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="336aaa3d-8e7a-44d3-9aa3-5d46fd834677">
+                    <propertyInstance Id="fa70eef1-bc13-44ff-84d7-1a6ca338a76e" name="ClrAttributes">
+                      <elementDefinition Id="e0a78ede-d6aa-4cec-957b-20c4c252d543" />
+                    </propertyInstance>
+                    <elementDefinition Id="746e155d-8b4d-4120-b5d3-d7558fe83505" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a3a3bba3-4e81-48b9-9c03-7823726e831d">
+                    <propertyInstance Id="7fcd62f2-9137-4dec-878f-fc5d3b90154a" name="IsPartial" value="false">
+                      <elementDefinition Id="82ed521b-3166-48a2-82b8-171bc5f2b4eb" />
+                    </propertyInstance>
+                    <elementDefinition Id="a58765bc-0103-4230-8e4a-5255f8c7c0bc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6a0acf9c-5762-4e1c-8135-376756f91e3c">
+                    <propertyInstance Id="ccb8b55c-c677-4c8f-8bd2-b6b8058ea4c9" name="IsUnsafe" value="false">
+                      <elementDefinition Id="264f1185-ed7e-4c44-b5b3-285b6c3efa38" />
+                    </propertyInstance>
+                    <elementDefinition Id="a7f973a1-5f69-4803-8cdd-6586efac0881" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c0a11a98-a8ec-407d-82e4-58d8366e5d57">
+                    <propertyInstance Id="36b18b25-e2dd-4035-a0a1-ffdaef3717e0" name="Inheritance" value="none">
+                      <elementDefinition Id="908763a6-57a4-4f80-a4b6-a7cb3bce241c" />
+                    </propertyInstance>
+                    <elementDefinition Id="6a256f7b-428f-4a9d-b76a-adab7673754b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ca12f290-6a8c-4cef-879a-a049b39310b0">
+                    <propertyInstance Id="dc697413-276c-4e25-8f9a-32c3bae99f6b" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="68a370b5-acad-4337-af37-9801ad0da115" />
+                    </propertyInstance>
+                    <elementDefinition Id="f508e2a5-c172-4a4a-b365-bafc46bdbe20" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e3274e50-2944-4d37-a423-4b6feb20d7a3">
+                    <propertyInstance Id="852467f0-0f52-4370-a730-da84381fdae1" name="params" value="false">
+                      <elementDefinition Id="490de626-ac96-4a8d-b416-3c096de751b5" />
+                    </propertyInstance>
+                    <elementDefinition Id="ff330bc0-9ed5-4604-b064-d99a8374bccc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="d31296e0-7491-4bc4-be33-84ce6de708d7" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c3925566-f819-4a67-a454-41b49cce583a" name="c" direction="In">
+                  <referencesInternal>
+                    <reference Id="cb65d80f-1e41-4f97-9c85-9dd31dd8df57" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DLeaf Member%3D(Name%3DRemove OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComponent)]) ParameterIdentifier%3Dc" tag="ViewCode">
+                      <elementDefinition Id="9b59d4e6-1bfc-4a4a-94e3-53ee0df717ef" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="96463771-9bad-4766-9420-c8eea52c8797" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ffc73dcb-1121-47f3-9dab-a9b1761fdd1f" LastKnownName="Component" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e2927945-fcbb-457c-ac5f-fd3a47a8f3a8" name="Composite" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="f46602f5-1ab1-4ed7-a462-b2bf084e2425" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComposite" tag="ViewCode">
+            <elementDefinition Id="f4df3b6c-9c23-48c5-b934-6432620c808f" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="a8c7ff9b-c10f-484c-b439-e06fb30e6821" name="class" profile="CSharpProfile">
+            <elementDefinition Id="ea1177c2-95b3-435b-bf27-2bca8b4f7bf6" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="d06bffa9-397c-4f64-a1aa-e50bffd8baa3">
+                <propertyInstance Id="ae45cdfd-38fd-4e00-a8b3-f6f2631223f2" name="ClrAttributes">
+                  <elementDefinition Id="4c3f491b-705d-45ec-9320-6f2743b5eefd" />
+                </propertyInstance>
+                <elementDefinition Id="e82e74cd-f261-426d-a3ac-46ca84a2f864" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="d6199db7-315c-4cad-8f9b-55e89e4fbf7b">
+                <propertyInstance Id="b99c7c76-80cb-4914-a32f-ca4b7e0c584f" name="IsPartial" value="false">
+                  <elementDefinition Id="3ef048b3-9053-44f9-a738-8a63d3551e67" />
+                </propertyInstance>
+                <elementDefinition Id="9ec162b8-9697-478d-b974-4ae61f6f22c7" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="96c8f2d4-27e1-464d-af57-7b4f8390e814">
+                <propertyInstance Id="337af710-3347-4d9b-90fb-ad915ce98745" name="IsStatic" value="False">
+                  <elementDefinition Id="353590f9-01be-49ef-8acc-269bea1d5c2c" />
+                </propertyInstance>
+                <elementDefinition Id="cd63bf1a-80c3-43f9-91aa-617374a4ab20" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="618f19c5-33b5-4088-9413-93ee7133f817">
+                <propertyInstance Id="75e995b5-81c0-4e66-a82c-8b1482bd8b24" name="IsUnsafe" value="false">
+                  <elementDefinition Id="38a6d7ec-59fa-4727-9601-93377abc661b" />
+                </propertyInstance>
+                <elementDefinition Id="59973e39-e512-4c7c-b60d-a2a2a2ebbfff" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="83a7aa3c-3fba-48b3-b6b6-6337623cf4b7">
+                <propertyInstance Id="eb570578-adb9-4316-9618-fba592e6fe0d" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="6ad5db44-b2bf-4210-bfcb-1474c188b2e1" />
+                </propertyInstance>
+                <elementDefinition Id="896d6558-501a-4d59-8d83-425fb7d8e899" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="1c474a1f-129c-47aa-aa58-77e2768b3203" />
+        <generalsInternal>
+          <generalization Id="d97e4e61-8381-46a0-baab-cb462bf54728" isSubstitutable="false">
+            <classMoniker Id="c2c9ea83-2659-4e6f-8efa-e3d24ff0633d" LastKnownName="Component" />
+            <elementDefinition Id="89fc16a0-41d2-4579-afda-ef557574d9d6" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="52e91ebd-a12e-4786-b196-f23ad3fbf64b" isDerived="false" sourceEndRoleName="Composite" targetEndRoleName="Component" isLeaf="false" isAbstract="false">
+            <classMoniker Id="c2c9ea83-2659-4e6f-8efa-e3d24ff0633d" LastKnownName="Component" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e24f0ca2-7ec9-431c-a2ce-764612e382f8" name="Composite" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Shared" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9aa14329-50d0-4452-b5e3-e0f5a56177ff" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5120fadd-283d-4253-8593-d981478cadc7" name="Component" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="28d38e3c-2fbd-49f6-a515-022702d92ae3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5092ecb8-fe29-4697-88a8-fde3bfc9d91f" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="67e512cc-33ac-4167-a120-e21002912860" name="_children" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="4828bf0f-14ce-415d-bd74-6bc6e8bbcd5f" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComposite Member%3D_children" tag="ViewCode">
+                <elementDefinition Id="c426d352-d170-4aa4-bdc0-804547f1e79d" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="09998c4b-415c-4e2f-bb68-487322c7382d" name="field" profile="CSharpProfile">
+                <elementDefinition Id="e2191273-0ee3-4231-9833-31659c7e0662" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="06abc83c-80c9-4e77-a3b4-9a9d112c024a">
+                    <propertyInstance Id="81b21ede-765d-4aa9-bcee-a6a3b704e3a4" name="ClrAttributes">
+                      <elementDefinition Id="9e750947-f024-4eed-bd0b-cc91f1638732" />
+                    </propertyInstance>
+                    <elementDefinition Id="fdea206e-1707-4906-986a-107f055c8ad2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="49d0cb76-d075-46b2-b79f-7e39419da81a">
+                    <propertyInstance Id="f017fd83-89d1-47f7-b527-f2211497cd0a" name="IsConst" value="false">
+                      <elementDefinition Id="3de25a07-c8cf-4e35-866a-241b8bcdc883" />
+                    </propertyInstance>
+                    <elementDefinition Id="8da428e6-a3e8-496f-993e-2f76d6385e73" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="63a904ab-4dc1-49f0-9324-dae1b4cda65d">
+                    <propertyInstance Id="c9dba2bd-d806-43da-a995-3d969d224723" name="IsNullable" value="false">
+                      <elementDefinition Id="9ddb9c83-1cf7-4c56-b770-774e55bf25dc" />
+                    </propertyInstance>
+                    <elementDefinition Id="3a26a461-cc29-4ea5-af25-527b88faa314" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="14b26d14-2bf2-41cf-921a-8fb0e58c37a0">
+                    <propertyInstance Id="e3abb5f4-26e4-4ccc-a057-b23df7b739d6" name="IsVolatile" value="false">
+                      <elementDefinition Id="e0813112-bb57-4b9d-b718-80ae82d3e0e3" />
+                    </propertyInstance>
+                    <elementDefinition Id="e0d82917-6ee7-4bb7-82af-7d21a4ff289c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="8caf260f-ee42-4cc5-a41a-2ab98861159a">
+                    <propertyInstance Id="b94473c9-7903-4009-b909-a736d81dcc93" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="3f14799c-6c95-45cd-9272-deff592e6cdf" />
+                    </propertyInstance>
+                    <elementDefinition Id="f89a9fd4-8b1c-4c4e-a1ab-2325f26809f6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="9ed85da9-1edd-4515-8f28-0ecc17c2bd77" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="5e14a21e-3eb9-4f14-80a2-fac4a6c311f1" LastKnownName="List&lt;Component‎&gt;" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="d99b4fc0-4a10-436e-ad43-932c8f38cdd1" name="Composite" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="b8aacb2b-272d-402a-9be5-0f604fc06945" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComposite Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])" tag="ViewCode">
+                <elementDefinition Id="0b3641ca-625c-41ca-82ad-1fd80d910687" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="b07127a3-83bf-414b-b33c-5841a3f4b0be" name="method" profile="CSharpProfile">
+                <elementDefinition Id="cee8d858-fca7-4184-9c1a-e23722d60fcb" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c2474a9a-0bb3-473e-9b3c-8a5f6df76479">
+                    <propertyInstance Id="ce132544-3ba1-424e-8282-ac28b0b8446c" name="ClrAttributes">
+                      <elementDefinition Id="bba1039a-91ae-4881-96ca-2aeb0ccd262d" />
+                    </propertyInstance>
+                    <elementDefinition Id="c5d12c46-eeff-487d-8e73-9200e5792337" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3671a51b-ad47-422b-b54c-531559b523f0">
+                    <propertyInstance Id="119c3f83-2d82-45b6-b978-66b88345458b" name="IsPartial" value="false">
+                      <elementDefinition Id="92ed2b61-2324-4651-bdf1-4ec9ca18550f" />
+                    </propertyInstance>
+                    <elementDefinition Id="861ebe95-b34f-4a38-aa25-bed44fb66fc2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="848d8abe-b5d2-4775-8e79-7af3d4925087">
+                    <propertyInstance Id="184bfeaa-9bfe-4a86-814e-b2a831a0a794" name="IsUnsafe" value="false">
+                      <elementDefinition Id="b41314d5-c1bc-4d10-a5ac-137cbc29545d" />
+                    </propertyInstance>
+                    <elementDefinition Id="b0d71015-c84a-473d-ac6c-9a8665e6b9dc" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7365083d-b6a5-4b01-9da8-d702072aeecc">
+                    <propertyInstance Id="0525fe12-6e1a-4972-8331-450cba218fa3" name="Inheritance" value="none">
+                      <elementDefinition Id="43175d54-7287-45d3-a4a9-785e82ed63da" />
+                    </propertyInstance>
+                    <elementDefinition Id="e897d656-5a0b-42eb-9267-31cec9ec4693" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a41bb824-1683-4ad8-8af1-674376ce6c26">
+                    <propertyInstance Id="ce0a87d2-99c5-4f6f-93e7-a219f8eeb627" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="1c8f4b65-e210-430c-8b0a-79d40e4ca7ce" />
+                    </propertyInstance>
+                    <elementDefinition Id="7e47afba-e5b5-4308-a6ac-9e1d50404cc7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="162fba24-3b3d-44ef-9c03-79b38682e4c7">
+                    <propertyInstance Id="ca2ae725-bf8f-4aa5-b75b-eddc95731604" name="params" value="false">
+                      <elementDefinition Id="6d677fbd-70bd-441e-9800-20d54badc52e" />
+                    </propertyInstance>
+                    <elementDefinition Id="fa7907f9-4bda-47ae-aeda-9a0f4321e221" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="c37f9cf6-f5ad-4669-b17a-442fa5714b88" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="e417c2c8-290f-401d-9a11-5417d7a3b64f" name="name" direction="In">
+                  <referencesInternal>
+                    <reference Id="55e89e9d-7d6d-4c5c-9618-230acb62fd79" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2F31347920870%2FDocuments%2FVisual Studio 2013%2FProjects%2FDesign_Patterns%2FDesign_Patterns%2Fbin%2FDebug%2FDesign_Patterns.dll&quot; Namespace%3DDesign_Patterns.Structural.Composite.Modelo Type%3DComposite Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Dname" tag="ViewCode">
+                      <elementDefinition Id="9c223846-16b5-47e4-a191-cfd65d2e4c5e" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="a1c77b37-ade7-4d8c-af6f-460354231917" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="699e0047-2573-493c-aa2d-b12257982f55" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="5e14a21e-3eb9-4f14-80a2-fac4a6c311f1" name="List&lt;Component‎&gt;" isAbstract="false" isLeaf="false" cachedFullName="UML_Projeto::System::Collections::Generic::List&lt;Component‎&gt;">
+        <elementDefinition Id="dbc79091-e19e-4929-908b-7aac15e02404" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="c77d85ed-3efd-4c22-8c86-d5655de1d1dd" name="UML_Projeto">
+    <elementDefinition Id="d57543b2-bb77-4764-8918-18d965efb64e" />
+  </package>
+</logicalClassDesignerModel>

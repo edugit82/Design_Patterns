@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="0cb374b0-a38c-4b02-9e49-6b7f8ecc9f53"
+  name="Behavioral"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="1d5b648e-48f0-4514-8b09-aa0672c7484c"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DDesign_Patterns.Behavioral"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="3256c920-769a-4395-baf0-1594db578628"
+        LastKnownName="Chain_of_Reponsibility"
+        LastKnownLocation="Package1_1811.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="417c2564-284a-452d-8380-524fa07d00d1"
+        LastKnownName="Command"
+        LastKnownLocation="Package_1004.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a25bcef5-e2b1-4c6e-b59c-d754e2d6e9f1"
+        LastKnownName="Interpreter"
+        LastKnownLocation="Package_1054.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="da6e83fd-f41e-4076-bc94-03af0f2e368a"
+        LastKnownName="Iterator"
+        LastKnownLocation="Package2_1436.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1775a06d-0748-4ade-bb63-621c25ccd61a"
+        LastKnownName="Mediator"
+        LastKnownLocation="Package_1534.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="4a3f71c4-b7db-445d-a7aa-3020d1f27c63"
+        LastKnownName="Memento"
+        LastKnownLocation="Package_1604.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="f16f951c-1415-46fa-88c6-a1f4c459d075"
+        LastKnownName="Observer"
+        LastKnownLocation="Package_1134.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="142daa51-bc6e-4fd3-a2b1-d04008ff2557"
+        LastKnownName="State"
+        LastKnownLocation="Package_1435.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="086913b6-8166-4417-ab31-6257c0ab8cb7"
+        LastKnownName="Strategy"
+        LastKnownLocation="Package_1506.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="011d79f0-33ed-4484-bba5-9d20baa9a965"
+        LastKnownName="Template_Method"
+        LastKnownLocation="Package_1013.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a29eb6cc-24af-480d-a769-2688a1c6f4be"
+        LastKnownName="Visitor"
+        LastKnownLocation="Package_1051.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
